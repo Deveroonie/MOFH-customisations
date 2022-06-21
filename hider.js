@@ -3,48 +3,64 @@
 * This code is open source 
 * The code is modified and re-coded by Spooky Kipper.
 */
-
+/*
 $(document).ready(function(){
-  $("#item_attracta_seotips").remove(); //hide SEOTOOLS - remove to unhide
-  $("icon-attracta_seotips").remove(); // ^^^
-  // $("#icon-cloudflare").remove(); //Hide Cloudflare - Remove comment to hide
-  // $("#item_cloudflare").remove(); // ^^^
-  $("#icon-sitereptile").remove(); // hide sitebuilder - remove to unhide (although it was shut down)
-  $("#item_sitereptile").remove(); // ^^^
-  $("#item_accounts").remove(); // hide emailaccounts - remove to unhide (Paid Hosting Service)
-  $("#icon-accounts").remove(); // ^^^
-  $("#item_forwarders").remove(); // ^^^
-  $("#icon-forwarders").remove(); // ^^^
-  $("#item_email_filters").remove(); // ^^^
-  $("#icon-email_filters").remove(); // ^^^
-  $("#item_postgresql_databases").remove(); // hide postgresql databases - remove to unhide (Paid hosting Service)
-  $("#icon-postgresql_databases").remove(); // ^^^
-  $("#icon-remote_mysql").remove(); // hide remotemysql - remove to unhide (Paid hosting Service)
-  $("#item_remote_mysql").remove(); // ^^^
+  $("#item_attracta_seotips"); //hide SEOTOOLS - remove to unhide
+  $("icon-attracta_seotips"); // ^^^
+  // $("#icon-cloudflare"); //Hide Cloudflare - Remove comment to hide
+  // $("#item_cloudflare"); // ^^^
+  $("#icon-sitereptile"); // hide sitebuilder - remove to unhide (although it was shut down)
+  $("#item_sitereptile"); // ^^^
+  $("#item_accounts"); // hide emailaccounts - remove to unhide (Paid Hosting Service)
+  $("#icon-accounts"); // ^^^
+  $("#item_forwarders"); // ^^^
+  $("#icon-forwarders"); // ^^^
+  $("#item_email_filters"); // ^^^
+  $("#icon-email_filters"); // ^^^
+  $("#item_postgresql_databases"); // hide postgresql databases - remove to unhide (Paid hosting Service)
+  $("#icon-postgresql_databases"); // ^^^
+  $("#icon-remote_mysql"); // hide remotemysql - remove to unhide (Paid hosting Service)
+  $("#item_remote_mysql"); // ^^^
 
-});
-
-/*****OLD CODE BACKUP*******//*
-document.getElementById("item_attracta_seotips").remove(); //hide SEOTOOLS - remove to unhide
-document.getElementById("icon-attracta_seotips").remove(); // ^^^
-document.getElementById("icon-cloudflare").remove(); // hide CLOUDFLARE - remove to unhide
-document.getElementById("item_cloudflare").remove(); // ^^^
-document.getElementById("icon-sitereptile").remove(); // hide sitebuilder - remove to unhide (although it was shut down)
-document.getElementById("item_sitereptile").remove(); // ^^^
-document.getElementById("item_accounts").remove(); // hide emailaccounts - remove to unhide (although it is paid)
-document.getElementById("icon-accounts").remove(); // ^^^
-document.getElementById("item_forwarders").remove(); // ^^^
-document.getElementById("icon-forwarders").remove(); // ^^^
-document.getElementById("item_email_filters").remove(); // ^^^
-document.getElementById("icon-email_filters").remove(); // ^^^
-document.getElementById("item_postgresql_databases").remove(); // hide postgresql databases - remove to unhide (although it is paid)
-document.getElementById("icon-postgresql_databases").remove(); // ^^^ 
-document.getElementById("icon-remote_mysql").remove(); // hide remotemysql - remove to unhide (it is paid, not applicable in free hosting)
-document.getElementById("item_remote_mysql").remove(); // ^^^
-document.getElementById("imgPoweredByCpanel").remove(); // hide poweredbycpanel - remove to unhide
+});*/
 
 
+const element = document.getElementById("item_attracta_seotips"); //hide SEOTOOLS - remove to unhide
+element.remove();
+const element = document.getElementById("icon-attracta_seotips"); // ^^^
+element.remove();
+const element = document.getElementById("icon-cloudflare"); // hide CLOUDFLARE - remove to unhideelement.remove();
+element.remove();
+const element = document.getElementById("item_cloudflare"); // ^^^
+element.remove();
+const element = document.getElementById("icon-sitereptile"); // hide sitebuilder - remove to unhide (although it was shut down)
+element.remove();
+const element = document.getElementById("item_sitereptile"); // ^^^
+element.remove();
+const element = document.getElementById("item_accounts"); // hide emailaccounts - remove to unhide (although it is paid)
+element.remove();
+const element = document.getElementById("icon-accounts"); // ^^^
+element.remove();
+const element = document.getElementById("item_forwarders"); // ^^^
+element.remove();
+const element = document.getElementById("icon-forwarders"); // ^^^
+element.remove();
+const element = document.getElementById("item_email_filters"); // ^^^
+element.remove();
+const element = document.getElementById("icon-email_filters"); // ^^^
+element.remove();
+const element = document.getElementById("item_postgresql_databases"); // hide postgresql databases - remove to unhide (although it is paid)
+element.remove();
+const element = document.getElementById("icon-postgresql_databases"); // ^^^ 
+element.remove();
+const element = document.getElementById("icon-remote_mysql"); // hide remotemysql - remove to unhide (it is paid, not applicable in free hosting)
+element.remove();
+const element = document.getElementById("item_remote_mysql"); // ^^^
+element.remove();
+const element = document.getElementById("imgPoweredByCpanel"); // hide poweredbycpanel - remove to unhide
+element.remove();
 
-document.getElementById("sidebar").remove(); //Remove Sidebar
-document.getElementById("btnSideBarToggle").remove(); //Remove Sidebar Button on Mobile
-*/
+
+
+const element = document.getElementById("sidebar").style.display = "none";; //Remove Sidebar
+const element = document.getElementById("btnSideBarToggle").style.display = "none";; //Remove Sidebar Button on Mobile
