@@ -1,6 +1,7 @@
 /* 
 * This code was written by SIREPICLYAMAZING (https://github.com/SirEpiclyAmazing/)
 * This code is open source 
+* The code is modified and re-coded by Spooky Kipper.
 */
 
 document.getElementById("item_attracta_seotips").remove(); //hide SEOTOOLS - remove to unhide
@@ -25,6 +26,5 @@ document.getElementById("imgPoweredByCpanel").remove(); // hide poweredbycpanel 
 
 
 
-document.getElementById("sidebar").remove(); 
-document.getElementById("btnSideBarToggle").remove(); 
-document.getElementById("txtCpanelVersion").remove(); 
+document.getElementById("sidebar").remove(); //Remove Sidebar
+document.getElementById("btnSideBarToggle").remove(); //Remove Sidebar Button on Mobile
